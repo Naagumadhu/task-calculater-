@@ -3,8 +3,11 @@
   height: 350px;  
   margin: 20px auto;  
   border: 5px solid gainsboro; 
-  /* border-bottom: 5px solid black; */
-  border-radius: 10px;  
+  border-top: 1px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 15px;  
   padding: 20px;  
   text-align: center;  
   background-color: lightgrey;  
@@ -14,7 +17,7 @@
 h1 {  
   text-align: center;  
   padding: 23px;  
-  background-color: blue;  
+  background-color: rgb(0, 225, 255);  
   color: white;  
   }  
 input:hover {
